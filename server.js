@@ -15,14 +15,14 @@ app.use(express.static('public'));
 // db mongo 
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout"
 
-mongoose.connect(MONGODB_URI,{
+mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
     useFindAndModify: false
 })
 
 //Creating Routes
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require("./routes/apiRoutes.js")(app);
+require("./routes/htmlRoutes.js")(app);
 
 // Starts the server to begin listening
 app.listen(PORT, function () {

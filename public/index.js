@@ -1,4 +1,3 @@
-console.log("javascript index")
 const workoutTypeSelect = document.querySelector("#type");
 const cardioForm = document.querySelector(".cardio-form");
 const resistanceForm = document.querySelector(".resistance-form");
@@ -31,6 +30,7 @@ async function init() {
     }
   }
 }
+
 function handleWorkoutTypeChange(event) {
   workoutType = event.target.value;
 
