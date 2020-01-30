@@ -1,7 +1,6 @@
 {
   "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "Unit 17 Nosql Homework: Workout Tracker",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,18 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.8.7",
-    "morgan": "^1.9.1",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/StephanyCamacho/Workout-Tracker.git"
+    "mongoose": "^5.8.10",
+    "morgan": "^1.9.1"
   },
   "keywords": [],
-  "bugs": {
-    "url": "https://github.com/StephanyCamacho/Workout-Tracker/issues"
-  },
-  "homepage": "https://github.com/StephanyCamacho/Workout-Tracker#readme"
+  "description": ""
 }
